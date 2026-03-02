@@ -3,7 +3,7 @@ cask "ink" do
   name "ink"
   desc "Terminal markdown viewer and distraction-free editor"
   homepage "https://github.com/inkcheck/ink"
-  version "0.2.0"
+  version "0.2.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ink" do
   on_macos do
     on_intel do
       url "https://github.com/inkcheck/ink/releases/download/v#{version}/ink_#{version}_darwin_amd64.tar.gz"
-      sha256 "5fc1ea8ac6b939a309778484f6c94b99e4f3a7ca53c703d16634764f531095ac"
+      sha256 "bc0aedb282522e130f464c49f78e76224bf5695921147883a299c89ae9264b14"
     end
     on_arm do
       url "https://github.com/inkcheck/ink/releases/download/v#{version}/ink_#{version}_darwin_arm64.tar.gz"
-      sha256 "5b1ea5b794828fe0f8ce405724ce60a0f8b2a70dad30b0c27908aa8beace2808"
+      sha256 "7630dee4f20b935e3a48a282ee92135b9c5c81a9fc1871fafc0f15d9d9ee423f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/inkcheck/ink/releases/download/v#{version}/ink_#{version}_linux_amd64.tar.gz"
-      sha256 "0059785eb6680873909bf76bfcd808b95dadf97b291bd00c5053dfeafbd2ea6e"
+      sha256 "dda30144ab90d656d16321b0f515a025f2a30ca74dd58a066fac65bea0db5b87"
     end
     on_arm do
       url "https://github.com/inkcheck/ink/releases/download/v#{version}/ink_#{version}_linux_arm64.tar.gz"
-      sha256 "11d5c4935d03c85835c65fbe7d1717a0666bf81ccead1fb264b6ed7400364dbc"
+      sha256 "b8dca652007bfe78d747aaccabb85f7c5f7aafe5d62910706656dae693fe2381"
     end
   end
 
