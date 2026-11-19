@@ -1,6 +1,6 @@
 cask "inkstudio" do
-  version "0.2.0"
-  sha256 "0043c8a6d39bdd39d0561b0ab9bc98eda1ddffdfdecb0d7ab419527b5613f340"
+  version "0.2.2"
+  sha256 "1dbc6e1ddb1cf239308abd1051980be3a3d6a68871a581ae902efb65ba480190"
 
   url "https://github.com/inkcheck/inkstudio/releases/download/v#{version}/InkStudio-#{version}.dmg"
   name "InkStudio"
