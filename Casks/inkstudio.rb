@@ -1,6 +1,6 @@
 cask "inkstudio" do
-  version "0.1.0"
-  sha256 "a3c7b2d1ebadbc023098c04564e6e17891daa6449b1e8cea29723033d27dbfbf"
+  version "0.2.0"
+  sha256 "0043c8a6d39bdd39d0561b0ab9bc98eda1ddffdfdecb0d7ab419527b5613f340"
 
   url "https://github.com/inkcheck/inkstudio/releases/download/v#{version}/InkStudio-#{version}.dmg"
   name "InkStudio"
@@ -23,9 +23,4 @@ cask "inkstudio" do
     "~/Library/Caches/InkStudio",
     "~/Library/WebKit/InkStudio",
   ]
-
-  caveats <<~EOS
-    Exporting PDF, PowerPoint and OpenDocument files uses an installed
-    Chrome, Chromium, Edge, Brave or Vivaldi.
-  EOS
 end
